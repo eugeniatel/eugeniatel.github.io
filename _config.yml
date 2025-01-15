@@ -194,7 +194,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/writings/"
       type: posts
     values:
       layout: single
