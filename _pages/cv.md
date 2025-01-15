@@ -14,6 +14,8 @@ Education
 * M.Sc. Management & Analytics, DiTella University, 2023-2025
 * B.Sc. Social Science, minor in Communication, DiTella University, 2016-2020
 
+---
+
 Work experience
 ======
 ## Web3 Citizen: Core Contributor & Writer
