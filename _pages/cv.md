@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.Sc. Management & Analytics, DiTella University, 2023-2025
-* B.Sc. Social Science, minor in Communication, DiTella University, 2016-2020
-
----
 
 Work experience
 ======
@@ -38,3 +32,11 @@ Work experience
 * **Devcon Scholar 2024 for Devcon VII** – Thanks to the Ethereum Foundation, met global builders and traveled to Bangkok for Devcon SEA.  
 * **Aleph (Dec 2024)** – Participated in [Buenos Aires’ Pop Up City hybrid hackathon](https://aleph.crecimiento.build/hackathon) as part of the Hackathon Team.  
 * **Translathon (Aug 2024)** – Translated Solidity Docs, PSE content, and Ethereum.org's main page.
+
+---
+
+Education
+======
+* M.Sc. Management & Analytics, DiTella University, 2023-2025
+* B.Sc. Social Science, minor in Communication, DiTella University, 2016-2020
+
