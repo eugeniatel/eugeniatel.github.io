@@ -83,7 +83,7 @@ analytics:
 # Site Author
 author:
   name             : "Eugenia"
-  avatar           : # avatar
+  avatar           : "pfp.png"
   bio              : "Another lower case r researcher writing about the world computer"
   location         : "Argentina"
   employer         :
