@@ -2,18 +2,17 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Eugenia
----
+# Eugenia
 
-I do things in communication and research. <br>
-This page is meant as a home base to share things I've learnt, my work and other random thoughts. 
+I do things in communication and research.<br>
+This page is meant as a home base to share things I've learned, my work, and other random thoughts.
 
 ### Writings
 
-* [Understanding EigenLayer (2024)] (https://www.web3citizen.xyz/research/eigenlayer)
-* [Content for EigenLayer News and OP Bulletin (2024)] (https://paragraph.xyz/@web3citizenxyz)
+* [Understanding EigenLayer (2024)](https://www.web3citizen.xyz/research/eigenlayer)
+* [Content for EigenLayer News and OP Bulletin (2024)](https://paragraph.xyz/@web3citizenxyz)
