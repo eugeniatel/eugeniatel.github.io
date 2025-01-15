@@ -1,10 +1,19 @@
 ---
 permalink: /
-title: "Welcome!"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I do things in the communication and research space.
-Lower case researcher @ Web3 Citizen.
+
+Eugenia
+---
+
+I do things in communication and research. <br>
+This page is meant as a home base to share things I've learnt, my work and other random thoughts. 
+
+### Writings
+
+* [Understanding EigenLayer (2024)] (https://www.web3citizen.xyz/research/eigenlayer)
+* [Content for EigenLayer News and OP Bulletin (2024)] (https://paragraph.xyz/@web3citizenxyz)
