@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.Sc. Management & Analytics, DiTella University, 2023-2025
+* B.Sc. Social Science, minor in Communication, DiTella University, 2016-2020
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Web3 Citizen: Core Contributor & Research
+* **Sep 2023 - Present**  
+  * Published reports on Ethereum: DAOs, Grants, and EigenLayer. [Read more](https://www.web3citizen.xyz/research)
+  * Created two ecosystem-focused newsletters: EigenLayer News and OP Bulletin. [Read more](https://paragraph.xyz/@web3citizenxyz)
+  * Contributed to governance in ArbitrumDAO and Scroll.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Seeds: Marketing Analyst
+* **Aug 2022 - Dec 2022**  
+  * Worked in the marketing team of Seeds, an HR/Future of Work startup.
+  
+* Ministry of Culture: Social Media & Comms
+* **Apr 2021 - Aug 2022**  
+  * Collaborated with the Secretary of Planning team within the City of Buenos Aires' Ministry of Culture.  
+  * Managed social media channels, focusing on brand awareness, resulting in a 50% increase in organic reach. 
+  * Created support materials and reports for project distribution.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Other Cool Experiences  
+* **Devcon Scholar 2024 for Devcon VII** – Thanks to the Ethereum Foundation, met global builders and traveled to Bangkok for Devcon SEA.  
+* **Aleph (Dec 2024)** – Participated in [Buenos Aires’ Pop Up City hybrid hackathon](https://aleph.crecimiento.build/hackathon) as part of the Hackathon Team.  
+* **Translathon (Aug 2024)** – Translated Solidity Docs, PSE content, and Ethereum.org's main page.
