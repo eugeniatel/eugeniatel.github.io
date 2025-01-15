@@ -16,7 +16,7 @@ Education
 
 Work experience
 ======
-## Web3 Citizen: Core Contributor & Research
+## Web3 Citizen: Core Contributor & Writer
  **Sep 2023 - Present**  
   * Published reports on Ethereum: DAOs, Grants, and EigenLayer. [Read more](https://www.web3citizen.xyz/research)
   * Created two ecosystem-focused newsletters: EigenLayer News and OP Bulletin. [Read more](https://paragraph.xyz/@web3citizenxyz)
