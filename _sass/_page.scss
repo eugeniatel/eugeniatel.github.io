@@ -5,8 +5,8 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -16,9 +16,6 @@
 }
 
 .page {
-  margin: 0 auto;
-  padding: 2em 3em; // Increased padding for better spacing
-
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -32,7 +29,6 @@
     .page__meta,
     .page__share {
       @include full();
-      padding: 0 1.5em; // Added internal horizontal padding
     }
   }
 }
@@ -49,16 +45,13 @@
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
-  margin-bottom: 2em; // Added margin for better spacing
 }
 
 .page__content {
-  max-width: 70ch; // Set optimal line length for readability
 
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
-    margin-bottom: 1.2em; // Improved spacing below headers
   }
 
   p, li, dl {
@@ -69,7 +62,7 @@
   p {
     margin: 0 0 $indent-var;
 
-    /* sibling indentation */
+    /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
         text-indent: $indent-var;
@@ -115,7 +108,7 @@
 
 .page__hero {
   position: relative;
-  margin-bottom: 3em; // Increased spacing for better balance
+  margin-bottom: 2em;
   @include clearfix;
   animation: intro 0.3s both;
   animation-delay: 0.25s;
@@ -197,6 +190,10 @@
   }
 }
 
+/*
+   Social sharing
+   ========================================================================== */
+
 .page__share {
   margin-top: 2em;
   padding-top: 1em;
@@ -222,6 +219,10 @@
   text-transform: uppercase;
 }
 
+/*
+   Page meta
+   ========================================================================== */
+
 .page__meta {
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
@@ -243,19 +244,24 @@
   text-transform: uppercase;
 }
 
+/*
+   Page taxonomy
+   ========================================================================== */
+
 .page__taxonomy {
   .sep {
     display: none;
   }
 
   strong {
-    margin-right: 10px;
+    margin-right: 30px;
+   margin-left: 30px;
   }
 }
 
 .page__taxonomy-item {
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
@@ -268,12 +274,16 @@
   }
 }
 
+/*
+   Comments
+   ========================================================================== */
+
 .page__comments {
   @include full();
 }
 
 .page__comments-title {
-  margin-top: 2rem;
+  margin-top: 4rem;
   margin-bottom: 10px;
   padding-top: 2rem;
   font-size: $type-size-6;
@@ -358,6 +368,10 @@
     text-decoration: none;
   }
 }
+
+/*
+   Related
+   ========================================================================== */
 
 .page__related {
   margin-top: 2em;
