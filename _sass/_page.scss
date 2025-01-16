@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 3em; /* Increased top margin for better spacing */
+  margin-top: 2em; /* Increased top margin for better spacing */
   padding: 2em; /* Improved left and right padding */
   animation: intro 0.3s both;
   animation-delay: 0.35s;
@@ -13,7 +13,7 @@
 
 .page {
   margin: 10 auto; /* Centers page content */
-  padding: 10em 1.5em; /* Adds overall page padding for consistency */
+  padding: 5em 1.5em; /* Adds overall page padding for consistency */
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
