@@ -4,6 +4,7 @@
 
 .archive {
   margin-bottom: 2em;
+  padding: 2em; /* Added padding for better layout */
 
   @include breakpoint($medium) {
     @include span(12 of 12);
@@ -48,8 +49,9 @@
   }
 }
 
-/* remove border*/
+/* remove border */
 .page__content {
+  margin: 2em; /* Added margin to create spacing around content */
 
   .archive__item-title {
     margin-top: 1em;
@@ -74,6 +76,10 @@
   }
 }
 
+.archive__item {
+  margin: 1.5em 1em; /* Added margin to each archive item */
+}
+
 .archive__item:hover {
   .archive__item-teaser {
     box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -84,12 +90,13 @@
   }
 }
 
-
 /*
    List view
    ========================================================================== */
 
 .list__item {
+  margin: 1.5em 1em; /* Added margin to each list item */
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }
@@ -106,7 +113,6 @@
     margin: 0 0 4px;
   }
 }
-
 
 /*
    Grid view
@@ -136,8 +142,8 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0; /* Reset before mixin does its thing */
+    margin-right: 0; /* Reset before mixin does its thing */
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {
@@ -150,7 +156,6 @@
     }
   }
 }
-
 
 /*
    Features
