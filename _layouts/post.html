@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="post" style="max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.8; font-family: 'Georgia', serif; font-size: 18px;">
+  <header class="post-header" style="text-align: center;">
+    <h1 class="post-title" style="font-size: 2.5em; margin-bottom: 0.5em;">{{ page.title }}</h1>
+    <p class="post-meta" style="font-size: 1em; color: #666;">
+      {% if page.date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%B %d, %Y" }}
+        </time>
+      {% endif %}
+      {% if page.author %}
+        &mdash; {{ page.author }}
+      {% endif %}
+    </p>
+  </header>
+
+  <div class="post-content" style="margin-top: 30px;">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer" style="margin-top: 40px; border-top: 1px solid #ddd; padding-top: 20px; text-align: center;">
+    {% if page.tags %}
+      <p class="post-tags">
+        <strong>Tags:</strong>
+        {% for tag in page.tags %}
+          <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/" style="text-decoration: none; color: #007acc;">
+            {{ tag }}
+          </a>
+          {% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    
+    {% if site.disqus_shortname %}
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = '{{ site.disqus_shortname }}';
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+      </script>
+    {% endif %}
+  </footer>
+</article>
