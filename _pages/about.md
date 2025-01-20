@@ -10,7 +10,7 @@ redirect_from:
 # Eugenia
 
 I do things in communication and research.<br>
-This page is meant as a home base to share things I'm learning, my work, and other random thoughts.
+This page is meant as a home base to share things I'm learning.
 
 ### Past written works
 
