@@ -43,6 +43,8 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+   
 
   a + a {
     opacity: 0.5;
@@ -77,7 +79,7 @@
 }
 
 .archive__item {
-  margin: 1.5em 1em; /* Added margin to each archive item */
+  margin: 1.5em; /* Added margin to each archive item */
 }
 
 .archive__item:hover {
