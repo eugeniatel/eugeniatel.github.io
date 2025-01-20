@@ -1,3 +1,13 @@
+---
+title: 'Short Notes on Based Rollups'
+date: 2025-01-19
+permalink: /based-rollups
+tags:
+  - Based
+---
+
+# Short Notes on Based Rollups
+
 My initial thinking was that base rollups were kind of “dead”.
 
 Since nobody –other than the already deployed [Taiko](https://taiko.xyz/)– were making noise about it, I left the subject aside.
