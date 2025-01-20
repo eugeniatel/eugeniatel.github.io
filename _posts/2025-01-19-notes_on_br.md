@@ -6,7 +6,6 @@ tags:
   - Based
 ---
 
-# Short Notes on Based Rollups
 
 My initial thinking was that base rollups were kind of “dead”.
 
