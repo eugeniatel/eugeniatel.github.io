@@ -1,20 +1,15 @@
 {% include base_path %}
 
-{% assign formatted_date = post.date | date: "%Y-%m-%d" %}
-
 <div class="{{ include.type | default: "list" }}__item" style="margin-left: 15px;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     
     <h2 class="archive__item-title" itemprop="headline" style="margin-left: 15px;">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a>
     </h2>
     
-    <p class="page__date" style="margin-left: 15px;"><time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ formatted_date }}</time></p>
+    <p class="page__date" style="margin-left: 15px;">
+      <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+    </p>
 
   </article>
 </div>
-
