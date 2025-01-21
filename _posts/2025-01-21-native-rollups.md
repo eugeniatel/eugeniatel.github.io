@@ -1,5 +1,5 @@
 ---
-title: 'A Summary of Superpowers from L1 Execution'
+title: 'Superpowers from L1 Execution'
 date: 2025-01-21
 permalink: /native-rollups
 tags:
