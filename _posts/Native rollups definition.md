@@ -1,7 +1,7 @@
 ---
 title: 'A Summary of Superpowers from L1 Execution'
-date: 2025-01-19
-permalink: /based-rollups
+date: 2025-01-21
+permalink: /native-rollups
 tags:
   - Based
 ---
