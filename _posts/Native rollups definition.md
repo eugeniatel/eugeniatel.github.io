@@ -1,3 +1,11 @@
+---
+title: 'A Summary of Superpowers from L1 Execution'
+date: 2025-01-19
+permalink: /based-rollups
+tags:
+  - Based
+---
+
 Almost two years after the [first Based Rollup post by Justin Drake](https://ethresear.ch/t/based-rollups-superpowers-from-l1-sequencing/15016) emerged, the [first Native Rollup post is here](https://ethresear.ch/t/native-rollups-superpowers-from-l1-execution/21517).
 
 ## Defining Native Rollups
