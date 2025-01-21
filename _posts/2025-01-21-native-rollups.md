@@ -19,7 +19,7 @@ Native Rollups effectively aim to scale L1 through rollups that use an exact cop
 > A native execution rollup, or “native rollup” for short, is a rollup which uses `EXECUTE` to verify EVM state transitions for batches of user transactions.
 
 
-#### **How does it use an exact copy of the EVM?**
+### How does it use an exact copy of the EVM?
 
 Within the EVM a precompile could be exposed that allows for people to deploy copies of the EVM, deploying a native rollup. Each copy can be customized with own fees, own governance mechanism and even sequencer.
 
