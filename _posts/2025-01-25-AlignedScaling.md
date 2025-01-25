@@ -1,6 +1,6 @@
 ---
 title: 'On the Road to Aligned Scaling'
-date: 2025-01-21
+date: 2025-01-25
 permalink: /aligned-scaling
 tags:
   - Based
