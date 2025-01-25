@@ -1,0 +1,63 @@
+// Dark Skin for Minimal Mistakes Theme
+// Place this file in _sass/minimal-mistakes/skins/_dark.scss
+
+// Base Background and Text
+$background-color: #121212;
+$text-color: #e0e0e0;
+$link-color: #64b5f6;
+$link-hover-color: #42a5f5;
+$border-color: #2c2c2c;
+
+// Accent Colors
+$accent-color: #bb86fc;
+$accent-color-light: #d8aefb;
+$accent-color-dark: #9a67ea;
+
+// Headers
+$h1-color: #ffffff;
+$h2-color: $accent-color;
+$h3-color: $text-color;
+$h4-color: lighten($text-color, 10%);
+$h5-color: lighten($text-color, 15%);
+$h6-color: lighten($text-color, 20%);
+
+// Buttons
+$button-background-color: $accent-color;
+$button-text-color: #ffffff;
+$button-border-color: darken($accent-color, 15%);
+$button-hover-background-color: $accent-color-dark;
+$button-hover-border-color: $accent-color-light;
+
+// Code and Syntax Highlighting
+$code-background-color: #1e1e1e;
+$code-text-color: #c3e88d;
+$code-border-color: #2c2c2c;
+
+// Tables
+$table-background-color: #1e1e1e;
+$table-border-color: #2c2c2c;
+$table-header-background-color: $accent-color;
+$table-header-text-color: #ffffff;
+
+// Forms
+$form-input-background-color: #1e1e1e;
+$form-input-border-color: $border-color;
+$form-input-text-color: $text-color;
+
+// Apply Colors to Body
+body {
+  background-color: $background-color;
+  color: $text-color;
+  a {
+    color: $link-color;
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+}
+
+// Misc
+blockquote {
+  background-color: darken($background-color, 5%);
+  border-left: 4px solid $accent-color;
+}
