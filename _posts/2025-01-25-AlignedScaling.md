@@ -7,7 +7,6 @@ tags:
   - Blobs
   - Pectra
 ---
-<br>
 
 The best way to end any kind of week is with hopeium. And that’s what we got this Friday.
 
@@ -43,11 +42,10 @@ Next: the rollup landscape with multiple implementations has given us composabil
     * More blobs, consider a minimum blob price, and blobs as a revenue generator.
     * L2s supporting ETH: with burning or staking % of fees
 
-<br>
 
 This wasn’t intended as a TLDR but it became one. My main take away is the focus on ETH the asset, based rollups not as a goal in itself but also as something that can help us get other where we want: a greater alignment in the L1<>L2s relationship, where both support and scale each other.
 
-<br><br>
+<br>
 
 ## Alignment of L2s with Based Rollups
 
@@ -57,12 +55,12 @@ Great highlights of the call was the two biggest L2 teams participation: Optimis
 
 We also got a FABRIC announcement from the team at [Commit Boost](https://github.com/Commit-Boost/).
 
-<br><br>
+<br>
 
 ## Pectra Date
 
 We have an expected date! March 11ᵗʰ will bring us 2x on blobs. For more, visit [Christine Kim’s write up](https://www.galaxy.com/insights/research/ethereum-all-core-developers-consensus-call-149/) on ACD.
 
-<br><br>
+<br>
 
 After weeks of Ethereum and EF drama this felt like a necessary write up. The future is bright.
