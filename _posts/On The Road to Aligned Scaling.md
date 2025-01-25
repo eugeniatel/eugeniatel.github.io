@@ -1,4 +1,13 @@
-# On the Road to Aligned Scaling
+---
+title: 'On the Road to Aligned Scaling'
+date: 2025-01-21
+permalink: /aligned-scaling
+tags:
+  - Based
+  - Blobs
+  - Pectra
+---
+<br>
 
 The best way to end any kind of week is with hopeium. And that’s what we got this Friday.
 
@@ -21,6 +30,7 @@ Next: the rollup landscape with multiple implementations has given us composabil
 * Security:
     * Get L2s to Stage 2 and improve their verifiability with multiprovers and formal verification
     * Develop Native Rollups, where the EVM state transition function verification happens in protocol with EVM precompiles, ensuring flexibility in implementation.
+
 * Interoperability
     * Addresses should have identifiers for both account + chain it lives on (aka. chain specific addresses).
     * Cross-chain bridges and messages, and synchronous reads.
