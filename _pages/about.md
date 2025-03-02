@@ -1,8 +1,9 @@
 ---
-title: "Hi all! I'm OOOOOO👋🏻"
+title: "Hi I'm Eugenia 👋🏻"
 permalink: /about/
 layout: single
 comments: false
 ---
 
-본인 소개 여기에 입력
+I write and do things in communication and research.
+This page is a home base for things that I've written.
