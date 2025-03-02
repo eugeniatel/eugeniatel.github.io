@@ -101,9 +101,9 @@ author:
   name: "Eugenia"           # Blog nickname
   avatar: "/assets/images/pfp.png"  # Blog profile picture
   # Uncomment the lines below if you want to include these details:
-    bio: "hi all!"
-    location: "Buenos Aires, Argentina"
-  # email: "malt:eugeniatellechea@proton.me"
+  # bio: "hi all!"
+  # location: "Buenos Aires, Argentina"
+  # email: "eugeniatellechea@proton.me"
 
   links:
     - label: "Email"
