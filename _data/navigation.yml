@@ -1,14 +1,15 @@
 # main links
 main:
   - title: "Home"
-    url: https://eugeniatel.github.io/
+    url: "https://eugeniatel.github.io/"
 
   - title: "About"
-    url: /about/
+    url: "/about/"
 
   - title: "CV"
-      url: "https://eugeniacv.vercel.app/"
-      
+    url: "https://eugeniacv.vercel.app/"
+
+
   # - title: "Projects"
   #   url: /projects/
 
