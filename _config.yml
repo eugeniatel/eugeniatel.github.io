@@ -100,18 +100,17 @@ analytics:
 author:
   name: "Eugenia"           # Blog nickname
   avatar: "/assets/images/pfp.png"  # Blog profile picture
-  # Uncomment the lines below if you want to include these details:
-  # bio: "hi all!"
-  # location: "Buenos Aires, Argentina"
-  # email: "eugeniatellechea@proton.me"
+  bio: "hi all!"
+  location: "Buenos Aires, Argentina"
+  email: "eugeniatellechea@proton.me"
 
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:eugeniatellechea@proton.me"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/eugenia_0x"
+#    - label: "Email"
+#      icon: "fas fa-fw fa-envelope-square"
+#      url: "mailto:eugeniatellechea@proton.me"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/eugenia_0x"
 
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
