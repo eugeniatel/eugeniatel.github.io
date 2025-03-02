@@ -1,13 +1,15 @@
 ---
 title: "Hi I'm Eugenia"
-subtitle: "**Welcome to my home base for things that I've written.**"
 layout: single
 permalink: /
 comments: false
-author_profile: true
+author_profile: false
 sidebar:
   nav: "categories"  # or whatever nav you want in the sidebar
 ---
+
+**Welcome to my home base for things that I've written.**
+
 
 I write and do things in the communication space, a [lower case r researcher](https://dba.xyz/how-to-do-lower-case-r-research/) if you will.
 
