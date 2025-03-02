@@ -1,11 +1,14 @@
 # main links
 main:
   - title: "Home"
-    url: https://choiiis.github.io/
+    url: https://eugeniatel.github.io/
 
   - title: "About"
     url: /about/
 
+  - title: "CV"
+      url: "https://eugeniacv.vercel.app/"
+      
   # - title: "Projects"
   #   url: /projects/
 
