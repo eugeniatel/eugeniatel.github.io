@@ -54,7 +54,10 @@ layout: default
 
       {% if page.share %}{% include social-share.html %}{% endif %}
 
+      {%- comment -%}
+      <!-- Removed post pagination (previous/next buttons) -->
       {% include post_pagination.html %}
+      {%- endcomment -%}
 
     </div>
 
@@ -63,7 +66,8 @@ layout: default
     {% endif %}
   </article>
 
-  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+  {%- comment -%}
+  <!-- Removed related posts section -->
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -73,7 +77,6 @@ layout: default
         {% endfor %}
       </div>
     </div>
-  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
       <h4 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h4>
@@ -87,4 +90,5 @@ layout: default
       </div>
     </div>
   {% endif %}
+  {%- endcomment -%}
 </div>
