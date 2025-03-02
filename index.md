@@ -1,6 +1,6 @@
 ---
 title: "Hi I'm Eugenia"
-layout: home
+layout: single
 permalink: /
 comments: false
 sidebar:
