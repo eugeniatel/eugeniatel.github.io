@@ -106,12 +106,12 @@ author:
   # email: "eugeniatellechea@proton.me"
 
   links:
-   # - label: "Email"
-    #  icon: "fas fa-fw fa-envelope-square"
-     # url: "mailto:eugeniatellechea@proton.me"
-    #- label: "Twitter"
-    ##  icon: "fab fa-fw fa-twitter-square"
-    #  url: "https://twitter.com/eugenia_0x"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:eugeniatellechea@proton.me"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/eugenia_0x"
 
 #     - label: "Email"
 #       icon: "fas fa-fw fa-envelope-square"
