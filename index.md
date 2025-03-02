@@ -1,8 +1,11 @@
 ---
-title: "Hi I'm Eugenia 👋🏻"
-permalink: /about/
+title: "Hi I'm Eugenia"
 layout: single
+permalink: /
 comments: false
+sidebar:
+  nav: "categories"  # or whatever nav you want in the sidebar
+author_profile: true  # show your author profile in the sidebar
 ---
 
 **Welcome to my home base for things that I've written.**

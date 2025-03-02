@@ -1,8 +1,5 @@
 # main links
 main:
-  - title: "Home"
-    url: "https://eugeniatel.github.io/"
-
   - title: "Posts"
     url: "/posts/"
 
