@@ -8,7 +8,7 @@ sidebar:
   nav: "categories"  # or whatever nav you want in the sidebar
 ---
 
-Eugenia Tellechea is a communications lead and researcher based in Argentina, obsessed with analytics, design, social media, and writing. This is where she shares her long-form writing, experiments and personal insights.
+I write and do things in the communication space, a [lower case r researcher](https://dba.xyz/how-to-do-lower-case-r-research/) if you will.
 
 ### Longer publications:
 * [Your intro to native rollups (2025)](https://www.web3citizen.xyz/research/rollups/native-rollups)
